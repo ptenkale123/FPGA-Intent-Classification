@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Jan 13 03:02:37 2021
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : chatbot
+Top-level Entity Name : chatbot
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 26,933 / 49,760 ( 54 % )
+    Total combinational functions : 26,047 / 49,760 ( 52 % )
+    Dedicated logic registers : 2,934 / 49,760 ( 6 % )
+Total registers : 2977
+Total pins : 116 / 360 ( 32 % )
+Total virtual pins : 0
+Total memory bits : 11,392 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 224 / 288 ( 78 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

@@ -1,0 +1,85 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/simulation/modelsim
+vcolor_mapper
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1608176305
+!i10b 1
+!s100 T0KBTJ_UM;8HFFZ:Bb;@C2
+IR;cGC8Z`4Yh=O?D:STkH93
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 color_mapper_sv_unit
+S1
+R0
+w1607761004
+8C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/color_mapper.sv
+FC:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/color_mapper.sv
+L0 21
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1608176305.000000
+!s107 C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/color_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl|C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/color_mapper.sv|
+!i113 1
+Z4 o-sv -work work
+Z5 !s92 -sv -work work +incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl
+Z6 tCvgOpt 0
+vnn_wrapper
+R1
+Z7 !s110 1608176306
+!i10b 1
+!s100 nbF]S]6Al`nU:T6[FB`9V2
+I>a5f=0P8c9=IdiITN<WQA3
+R2
+!s105 nn_wrapper_sv_unit
+S1
+R0
+w1608175065
+8C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/nn_wrapper.sv
+FC:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/nn_wrapper.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1608176306.000000
+!s107 C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/nn_wrapper.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl|C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/nn_wrapper.sv|
+!i113 1
+R4
+R5
+R6
+vtestbench
+R1
+R7
+!i10b 1
+!s100 hNIi`=F<[F31QPzZmg6Fl2
+I3UlXfelB]dBmFPR_Q>`B:1
+R2
+!s105 testbench_sv_unit
+S1
+R0
+w1608175000
+8C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/testbench.sv
+FC:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/testbench.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl|C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/testbench.sv|
+!i113 1
+R4
+R5
+R6

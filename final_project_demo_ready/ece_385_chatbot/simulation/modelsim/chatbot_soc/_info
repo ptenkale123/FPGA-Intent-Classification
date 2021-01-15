@@ -1,0 +1,112 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/simulation/modelsim
+vFloat_Add
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1608176306
+!i10b 1
+!s100 XLOT9Ec_X;n>LLa=GOgm]0
+InhW5Y2@k0D]5YEkU<lo>31
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 floating_point_operations_sv_unit
+S1
+R0
+Z5 w1607761003
+Z6 8C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/floating_point_operations.sv
+Z7 FC:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/floating_point_operations.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1608176306.000000
+Z10 !s107 C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/floating_point_operations.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|chatbot_soc|+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules|C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/floating_point_operations.sv|
+!i113 1
+Z12 o-sv -work chatbot_soc
+Z13 !s92 -sv -work chatbot_soc +incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules
+Z14 tCvgOpt 0
+n@float_@add
+vFloat_Mul
+R1
+R2
+!i10b 1
+!s100 dB6;VQPeX>1S6?JZ3abR^1
+IYZkaF87E9EV[o0GFfjR]d0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 77
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@float_@mul
+vneural_net
+R1
+R2
+!i10b 1
+!s100 9ZVXgdehM34nL_nGH2<mZ0
+IejI]BbEP]aR`NjE?Cc_Jg1
+R3
+!s105 neural_net_sv_unit
+S1
+R0
+R5
+8C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/neural_net.sv
+FC:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/neural_net.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/neural_net.sv|
+!s90 -reportprogress|300|-sv|-work|chatbot_soc|+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules|C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/neural_net.sv|
+!i113 1
+R12
+R13
+R14
+vnn_partition
+R1
+R2
+!i10b 1
+!s100 ]?NY>Soh07ih=BJb5ab@a0
+IFJQl8>DfG?MaDK>C`<[7W2
+R3
+!s105 nn_partition_sv_unit
+S1
+R0
+R5
+8C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/nn_partition.sv
+FC:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/nn_partition.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/nn_partition.sv|
+!s90 -reportprogress|300|-sv|-work|chatbot_soc|+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules|C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/nn_partition.sv|
+!i113 1
+R12
+R13
+R14

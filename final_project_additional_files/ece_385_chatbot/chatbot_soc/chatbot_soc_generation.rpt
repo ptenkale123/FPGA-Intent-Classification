@@ -1,0 +1,182 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\vishn\Desktop\ece_385_chatbot\chatbot_soc.qsys --block-symbol-file --output-directory=C:\Users\vishn\Desktop\ece_385_chatbot\chatbot_soc --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading ece_385_chatbot/chatbot_soc.qsys
+Progress: Reading input file
+Progress: Adding TIMER [altera_avalon_timer 18.1]
+Progress: Parameterizing module TIMER
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding hex_digits_pio [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex_digits_pio
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding key [altera_avalon_pio 18.1]
+Progress: Parameterizing module key
+Progress: Adding keycode [altera_avalon_pio 18.1]
+Progress: Parameterizing module keycode
+Progress: Adding leds_pio [altera_avalon_pio 18.1]
+Progress: Parameterizing module leds_pio
+Progress: Adding neural_net_0 [neural_net 1.0]
+Progress: Parameterizing module neural_net_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 18.1]
+Progress: Parameterizing module sdram_pll
+Progress: Adding spi_0 [altera_avalon_spi 18.1]
+Progress: Parameterizing module spi_0
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Adding timer_0 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_0
+Progress: Adding usb_gpx [altera_avalon_pio 18.1]
+Progress: Parameterizing module usb_gpx
+Progress: Adding usb_irq [altera_avalon_pio 18.1]
+Progress: Parameterizing module usb_irq
+Progress: Adding usb_rst [altera_avalon_pio 18.1]
+Progress: Parameterizing module usb_rst
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: chatbot_soc.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: chatbot_soc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: chatbot_soc.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: chatbot_soc.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\vishn\Desktop\ece_385_chatbot\chatbot_soc.qsys --synthesis=VERILOG --output-directory=C:\Users\vishn\Desktop\ece_385_chatbot\chatbot_soc\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading ece_385_chatbot/chatbot_soc.qsys
+Progress: Reading input file
+Progress: Adding TIMER [altera_avalon_timer 18.1]
+Progress: Parameterizing module TIMER
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding hex_digits_pio [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex_digits_pio
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding key [altera_avalon_pio 18.1]
+Progress: Parameterizing module key
+Progress: Adding keycode [altera_avalon_pio 18.1]
+Progress: Parameterizing module keycode
+Progress: Adding leds_pio [altera_avalon_pio 18.1]
+Progress: Parameterizing module leds_pio
+Progress: Adding neural_net_0 [neural_net 1.0]
+Progress: Parameterizing module neural_net_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 18.1]
+Progress: Parameterizing module sdram_pll
+Progress: Adding spi_0 [altera_avalon_spi 18.1]
+Progress: Parameterizing module spi_0
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Adding timer_0 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_0
+Progress: Adding usb_gpx [altera_avalon_pio 18.1]
+Progress: Parameterizing module usb_gpx
+Progress: Adding usb_irq [altera_avalon_pio 18.1]
+Progress: Parameterizing module usb_irq
+Progress: Adding usb_rst [altera_avalon_pio 18.1]
+Progress: Parameterizing module usb_rst
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: chatbot_soc.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: chatbot_soc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: chatbot_soc.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: chatbot_soc.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: chatbot_soc: Generating chatbot_soc "chatbot_soc" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src6 and cmd_mux_006.sink0
+Info: Inserting clock-crossing logic between cmd_demux_001.src5 and cmd_mux_006.sink1
+Info: Inserting clock-crossing logic between rsp_demux_006.src0 and rsp_mux.sink6
+Info: Inserting clock-crossing logic between rsp_demux_006.src1 and rsp_mux_001.sink5
+Info: TIMER: Starting RTL generation for module 'chatbot_soc_TIMER'
+Info: TIMER:   Generation command is [exec C:/intelFPGA/18.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA/18.1/quartus/bin64//perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=chatbot_soc_TIMER --dir=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0004_TIMER_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0004_TIMER_gen//chatbot_soc_TIMER_component_configuration.pl  --do_build_sim=0  ]
+Info: TIMER: Done RTL generation for module 'chatbot_soc_TIMER'
+Info: TIMER: "chatbot_soc" instantiated altera_avalon_timer "TIMER"
+Info: jtag_uart_0: Starting RTL generation for module 'chatbot_soc_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=chatbot_soc_jtag_uart_0 --dir=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0005_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0005_jtag_uart_0_gen//chatbot_soc_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'chatbot_soc_jtag_uart_0'
+Info: jtag_uart_0: "chatbot_soc" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: neural_net_0: "chatbot_soc" instantiated neural_net "neural_net_0"
+Info: nios2_gen2_0: "chatbot_soc" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'chatbot_soc_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=chatbot_soc_onchip_memory2_0 --dir=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0007_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0007_onchip_memory2_0_gen//chatbot_soc_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'chatbot_soc_onchip_memory2_0'
+Info: onchip_memory2_0: "chatbot_soc" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: sdram: Starting RTL generation for module 'chatbot_soc_sdram'
+Info: sdram:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=chatbot_soc_sdram --dir=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0008_sdram_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0008_sdram_gen//chatbot_soc_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'chatbot_soc_sdram'
+Info: sdram: "chatbot_soc" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sdram_pll: "chatbot_soc" instantiated altpll "sdram_pll"
+Info: sysid_qsys_0: "chatbot_soc" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "chatbot_soc" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "chatbot_soc" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "chatbot_soc" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'chatbot_soc_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA/18.1/quartus/bin64//perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=chatbot_soc_nios2_gen2_0_cpu --dir=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0014_cpu_gen/ --quartus_bindir=C:/intelFPGA/18.1/quartus/bin64/ --verilog --config=C:/Users/vishn/AppData/Local/Temp/alt8605_812682117838142928.dir/0014_cpu_gen//chatbot_soc_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2020.12.09 04:02:51 (*) Starting Nios II generation
+Info: cpu: # 2020.12.09 04:02:51 (*)   Checking for plaintext license.
+Info: cpu: # 2020.12.09 04:03:02 (*)   Plaintext license not found.
+Info: cpu: # 2020.12.09 04:03:02 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2020.12.09 04:03:02 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2020.12.09 04:03:02 (*)   Creating all objects for CPU
+Info: cpu: # 2020.12.09 04:03:04 (*)   Generating RTL from CPU objects
+Info: cpu: # 2020.12.09 04:03:04 (*)   Creating plain-text RTL
+Info: cpu: # 2020.12.09 04:03:05 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'chatbot_soc_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: neural_net_0_NN_Slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "neural_net_0_NN_Slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: neural_net_0_NN_Slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "neural_net_0_NN_Slave_agent"
+Info: neural_net_0_NN_Slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "neural_net_0_NN_Slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_008: "mm_interconnect_0" instantiated altera_merlin_router "router_008"
+Info: sdram_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "sdram_s1_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Users/vishn/Desktop/ece_385_chatbot/chatbot_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/vishn/Desktop/ece_385_chatbot/chatbot_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/vishn/Desktop/ece_385_chatbot/chatbot_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: sdram_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "sdram_s1_rsp_width_adapter"
+Info: Reusing file C:/Users/vishn/Desktop/ece_385_chatbot/chatbot_soc/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/vishn/Desktop/ece_385_chatbot/chatbot_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file C:/Users/vishn/Desktop/ece_385_chatbot/chatbot_soc/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_006: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_006"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_006" instantiated error_adapter "error_adapter_0"
+Info: chatbot_soc: Done "chatbot_soc" with 38 modules, 66 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

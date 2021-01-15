@@ -1,0 +1,125 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do chatbot_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl {C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/color_mapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:25 on Dec 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl" C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/color_mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 19:38:25 on Dec 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib chatbot_soc
+# ** Warning: (vlib-34) Library already exists at "chatbot_soc".
+# vmap chatbot_soc chatbot_soc
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap chatbot_soc chatbot_soc 
+# Modifying modelsim.ini
+# vlog -sv -work chatbot_soc +incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules {C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/floating_point_operations.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:26 on Dec 16,2020
+# vlog -reportprogress 300 -sv -work chatbot_soc "+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules" C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/floating_point_operations.sv 
+# -- Compiling module Float_Add
+# -- Compiling module Float_Mul
+# 
+# Top level modules:
+# 	Float_Add
+# 	Float_Mul
+# End time: 19:38:26 on Dec 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work chatbot_soc +incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules {C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/nn_partition.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:26 on Dec 16,2020
+# vlog -reportprogress 300 -sv -work chatbot_soc "+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules" C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/nn_partition.sv 
+# -- Compiling module nn_partition
+# 
+# Top level modules:
+# 	nn_partition
+# End time: 19:38:26 on Dec 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work chatbot_soc +incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules {C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/neural_net.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:26 on Dec 16,2020
+# vlog -reportprogress 300 -sv -work chatbot_soc "+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules" C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/chatbot_soc/synthesis/submodules/neural_net.sv 
+# -- Compiling module neural_net
+# 
+# Top level modules:
+# 	neural_net
+# End time: 19:38:26 on Dec 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl {C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/nn_wrapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:26 on Dec 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl" C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/nn_wrapper.sv 
+# -- Compiling module nn_wrapper
+# 
+# Top level modules:
+# 	nn_wrapper
+# End time: 19:38:26 on Dec 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl {C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:26 on Dec 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl" C:/Users/Prateek/Desktop/ece385git/final_project_demo_ready/ece_385_chatbot/hdl/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 19:38:26 on Dec 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -L chatbot_soc -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -L chatbot_soc -voptargs=""+acc"" testbench 
+# Start time: 19:38:27 on Dec 16,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.nn_wrapper
+# Loading chatbot_soc.neural_net
+# Loading chatbot_soc.nn_partition
+# Loading chatbot_soc.Float_Mul
+# Loading chatbot_soc.Float_Add
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+add wave -position insertpoint  \
+sim:/testbench/dut/nn/O_1 \
+sim:/testbench/dut/nn/O_2
+restart -f
+run 1000ns
+add wave -position insertpoint  \
+sim:/testbench/dut/nn/X_1 \
+sim:/testbench/dut/nn/X_2 \
+sim:/testbench/dut/nn/X_3 \
+sim:/testbench/dut/nn/X_4 \
+sim:/testbench/dut/nn/X_5 \
+sim:/testbench/dut/nn/X_6 \
+sim:/testbench/dut/nn/X_7 \
+sim:/testbench/dut/nn/X_8 \
+sim:/testbench/dut/nn/X_9 \
+sim:/testbench/dut/nn/X_10 \
+sim:/testbench/dut/nn/X_11 \
+sim:/testbench/dut/nn/X_12 \
+sim:/testbench/dut/nn/X_13 \
+sim:/testbench/dut/nn/X_14 \
+sim:/testbench/dut/nn/X_15 \
+sim:/testbench/dut/nn/X_16
+restart -f
+run 1000ns
+# End time: 20:09:10 on Dec 16,2020, Elapsed time: 0:30:43
+# Errors: 0, Warnings: 0
